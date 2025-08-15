@@ -34,7 +34,7 @@ export default function Login() {
             backgroundColor: "#f5f5f5",
           }}
         >
-          <Grid 
+          <Grid
             item
             xs={11}
             sm={8}
@@ -43,13 +43,21 @@ export default function Login() {
             elevation={6}
             square
             sx={{
-              display:"flex",
-              borderRadius:"12px",
-              overflow:"hidden"
+              display: "flex",
+              borderRadius: "12px",
+              overflow: "hidden",
             }}
-          
           >
-            <Grid size={{ xs: 6, md: 6 }}>
+            <Grid
+              item
+              xs={12}
+              md={6}
+              sx={{
+                p: 4,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
               <Stack alignItems={"center"}>
                 <Typography variant="h5" fontFamily={"sans-serif"}>
                   this your store make it from scratch
@@ -79,12 +87,17 @@ export default function Login() {
                 </Stack>
               </Stack>
             </Grid>
-            <Grid size={{ xs: 6, md: 6 }}>
-              <img
-                url="url(https://images.unsplash.com/photo-1506744038136-46273834b3fb)"
-                alt=""
-              ></img>
-            </Grid>
+            <Grid
+              xs={false}
+              md={6}
+              sx={{
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1506744038136-46273834b3fb)",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            />
           </Grid>
         </Grid>
       </Stack>
