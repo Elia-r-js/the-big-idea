@@ -1,10 +1,10 @@
 import React from 'react'
-import Login from './login'
+import LoginView from './pages/auth/view/login-view'
 
 export default function App() {
   return (
     <>
-    <Login/>
+    <LoginView/>
     </>
   )
 }
