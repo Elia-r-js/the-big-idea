@@ -1,5 +1,4 @@
 import {
-  Box,
   Button,
   Checkbox,
   Divider,
@@ -13,7 +12,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import axios from "axios";
-import { Form, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { FaFacebook } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { RxEyeOpen } from "react-icons/rx";
