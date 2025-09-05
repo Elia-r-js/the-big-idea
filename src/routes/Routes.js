@@ -1,5 +1,5 @@
 import LoginView from "../pages/auth/view/login-view";
-import CrAcount from "../pages/CrAcount/CrAcount";
+import CrAccountView from "../pages/CrAcount/view/CrAccount-view";
 
 
 
@@ -11,6 +11,6 @@ export const routes= {
     },
     CreateAccountPage: {
         path:"/signIn",
-        Component:CrAcount
+        Component:CrAccountView
     }
 }
